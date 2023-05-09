@@ -1,0 +1,15 @@
+1. Features - how does the model recognise the most dominant features
+the softmax activation function in the fully connected layer detects the most important features 
+2.Layers used in our model (in order)
+1. COnv2D
+2. Max pooling 
+3.Dropout
+4.flatten
+5.dense
+3. Rescaling and gradient descent 
+A reason why feature scaling is applied is that gradient descent converges much faster with feature scaling than without it. The range of all features should be normalized so that each feature contributes approximately proportionately to the final distance.
+4. accuracy and loss - what are the methods to determinete accuracy 
+     Loss Functions
+    Metrics
+    Verify the model by using the validation data
+    Optimization functions
